@@ -13,4 +13,4 @@ e = math.e          #Obtencion de valor de e
 arcose = math.acos       #Arco seno de un valor (angulo)
 t = math.asin       #Arco seno de un valor (angulo)
 
-print(expo)
+print(e)
