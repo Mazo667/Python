@@ -3,6 +3,7 @@ def fibonacciR(n):
     if(n == 0 or n == 1):
         return n
     else:
+        print(n)
         return fibonacciR(n-1) + fibonacciR(n-2)
     
 def fibonacciI(n):
@@ -21,5 +22,5 @@ def fibonacciI(n):
             i += 1
     return fib
 
-print(fibonacciR(6))
-print(fibonacciI(6))
+print(fibonacciR(10))
+print(fibonacciI(10))
