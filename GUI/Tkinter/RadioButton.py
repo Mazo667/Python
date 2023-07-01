@@ -1,0 +1,15 @@
+import tkinter as tk
+
+root = tk.Tk()
+root.title('Aplicacion')
+root.geometry('360x240')
+root.resizable(False,False)
+label = tk.Label(root,text="Te gusta las bananas")
+frame = tk.Frame(root)
+si = tk.Radiobutton(frame,text="SI")
+no = tk.Radiobutton(frame,text="NO")
+label.pack()
+frame.pack()
+si.pack()
+no.pack()
+root.mainloop()
