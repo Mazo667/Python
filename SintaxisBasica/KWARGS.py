@@ -4,3 +4,9 @@ def get_product(**datos):
 
 get_product(id="23",name="Iphone",desc="Esto es un Iphone")
 #Output: 23 Iphone
+
+def listarTerminos(**terminos):
+    for llave, valor in terminos.items():
+        print(f'{llave}: {valor}')
+
+listarTerminos(IDE='Integrated Development Enviroment', PK='Primary Key')
